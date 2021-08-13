@@ -1,0 +1,16 @@
+<div class="flex one two-1000">
+  <div class="product-image">
+    <img src="<%= @product.picture %>" />
+  </div>
+  <div>
+    <h1><%= @product.brand %></h1>
+    <p>
+    <h1><%= @product.title %></h1>
+    <p>
+      <%= @product.description %>
+    </p>
+    <h2>Release Date <%= @product.rdate %></h2>
+    <p>
+
+    <h2><%= number_to_currency(@product.price) %></h2>
+    <hr />
